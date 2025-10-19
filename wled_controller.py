@@ -147,7 +147,7 @@ Examples:
                        help="Effect intensity 0-255 (default: 128)")
     parser.add_argument("--palette", "-p", type=int, default=0,
                        help="Palette ID 0-58 (default: 0)")
-    parser.add_argument("--order", choices=["GRB", "RGB", "BRG", "RGBW", "GRBW"],
+    parser.add_argument("--order", choices=["GRB", "RGB", "RGBW", "GRBW"],
                        default="GRB",
                        help="Pixel color order (default: GRB)")
     parser.add_argument("--pin", default="D18",
@@ -163,7 +163,6 @@ Examples:
     order_map = {
         "GRB": neopixel.GRB,
         "RGB": neopixel.RGB,
-        "BRG": neopixel.BRG,
         "RGBW": neopixel.RGBW,
         "GRBW": neopixel.GRBW
     }
