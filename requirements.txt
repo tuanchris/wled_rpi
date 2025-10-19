@@ -1,0 +1,11 @@
+# WLED Raspberry Pi Backend Requirements
+
+# NeoPixel library for Raspberry Pi
+adafruit-circuitpython-neopixel>=6.3.0
+
+# Board pin definitions
+Adafruit-Blinka>=8.0.0
+
+# Optional: For future HTTP API
+# flask>=2.0.0
+# flask-cors>=3.0.0
